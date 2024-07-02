@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #dfdfdf;
+}
+.container {
+    max-width: 40rem;
+    margin: auto;
+    padding: 1.3rem;
+    background: whitesmoke;
+    border-radius: .5rem;
+    font-family: "Raleway", sans-serif;
+}
+h1, h2 {
+    color: #333;
+}
+.header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #4CAF50;
+    color: white;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.nav{
+    background-color: hwb(199 55% 5%);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+.nav a span{
+    color: rgb(0, 14, 43);
+    letter-spacing: normal;
+}
+#time{
+    font-size: 1rem;
+    color: #464242;
+    font-family: "Rubik", sans-serif;
+}
+#today{
+    color: white;
+    font-weight: bold;
+}
+.profile-pic {
+    max-width: 100%;
+    height: auto;
+}
+.text-bottom-left {
+    position: absolute;
+    bottom: 15%;
+    right: -18%;
+    transform: translate(-50%, -20%);
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    color: rgb(55, 49, 49);
+    font-size: 5vw;
+}
+.text-bottom-left span{
+    color: red;
+}
+.text-bottom-left p{
+    position: absolute;
+    bottom: -120%;
+    /* line-height: 1.5rem; */
+    font-size: 2.3vw;
+    color: rgb(3, 31, 25);
+    font-style: italic;
+}
+
+.img-container{
+    position: relative;
+    /* text-align: center; */
+    color: white;
+}
+.content {
+    padding: 20px;
+}
+.content h2 {
+    border-bottom: 2px solid #2a2b2a;
+    padding-bottom: .5rem;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 500;
+}
+.content p {
+    margin-bottom: 10px;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+.content ul li {
+    background: #f4f4f4;
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 1rem;
+    /* border-left: 4px solid #4CAF50; */
+}
+.hng{
+    text-decoration: none;
+
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
